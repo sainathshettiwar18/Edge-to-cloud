@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "uart0.o" "delay.o" "esp01.o" "lcd.o" "dht11.o" "dht11_eeprom.o" "i2c.o" "i2c_eeprom.o" "i2c_peripheral.o" "pin_connect_block.o" "mainfile.o" "rtc_based_cloud_updation.o" "eint0.o" "interrupts.o" "kpm.o" "rtc.o" "setpointaction.o" --strict --scatter "MainFileOutput.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\MainFileOutput.map" -o "MainFileOutput.axf"

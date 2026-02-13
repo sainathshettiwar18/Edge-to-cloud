@@ -1,0 +1,9 @@
+#define PIN_FUNC1 0
+#define PIN_FUNC2 1
+#define PIN_FUNC3 2
+#define PIN_FUNC4 3
+#define EINT2_0_7 PIN_FUNC4
+#define TXD0_PIN_0_0 PIN_FUNC2
+#define RXD0_PIN_0_1 PIN_FUNC2
+#define SCL_PIN_0_2 PIN_FUNC2
+#define SDA_PIN_0_3 PIN_FUNC2

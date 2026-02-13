@@ -1,0 +1,36 @@
+*** Creating Trace Output File 'output.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"uart0.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"esp01.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"dht11_eeprom.o"'
+### List of Objects: adding '"i2c.o"'
+### List of Objects: adding '"i2c_eeprom.o"'
+### List of Objects: adding '"i2c_peripheral.o"'
+### List of Objects: adding '"pin_connect_block.o"'
+### List of Objects: adding '"rtc_based_cloud_updation.o"'
+### List of Objects: adding '"eint0.o"'
+### List of Objects: adding '"interrupts.o"'
+### List of Objects: adding '"kpm.o"'
+### List of Objects: adding '"rtc.o"'
+### List of Objects: adding '"setpointaction.o"'
+### List of Objects: adding '"dht11a.o"'
+### List of Objects: adding '"dht11_testa.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "uart0.o" "delay.o" "esp01.o" "lcd.o" "dht11_eeprom.o" "i2c.o" "i2c_eeprom.o" "i2c_peripheral.o" "pin_connect_block.o" "rtc_based_cloud_updation.o" "eint0.o" "interrupts.o" "kpm.o" "rtc.o" "setpointaction.o" "dht11a.o" "dht11_testa.o" --strict --scatter "output.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\output.map" -o "output.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'output.axf'
+### ADS-LD Command File: 'output.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'output.lnp', Handle=0x0000045C
+### Writing '.lnp' file
+### ADS-LD Command file 'output.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
